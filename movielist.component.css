@@ -1,0 +1,12 @@
+table,tr,td,th{
+    border:solid black 2px;
+    border-collapse: collapse
+}
+button{
+    background-color:lightsalmon;
+}
+fieldset{
+        font-size: 25px;
+        border:1px solid black;
+        border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+<fieldset>Movie List Data</fieldset><br/>
+<input type="search" placeholder="Search" [(ngModel)]="search"> &nbsp;
+<button (click)="addmovie()">Add Movie</button>
+<table>
+    <tr>
+        <th>MovieName</th>
+        <th>Language</th>
+        <th>Genre</th>
+    </tr>
+    
+    <tr *ngFor='let a of moviedata | filter:search;let i=index'>
+        <td>{{a.MovieName}}</td>
+        <td>{{a.Language}}</td>
+        <td>{{a.Genre}}</td>
+    </tr>
+</table>

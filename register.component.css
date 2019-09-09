@@ -1,0 +1,9 @@
+button{
+    background-color: aqua;
+}
+body{
+    border-style: solid;
+    float: left;
+    margin:3px;
+    padding:10px;
+}

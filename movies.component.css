@@ -1,0 +1,15 @@
+button{
+    background-color:lightsalmon;
+}
+body{
+    border-style: solid;
+    float: left;
+    margin:3px;
+    padding:10px;
+}
+fieldset{
+    font-size: 25px;
+    border:1px solid black;
+    border-radius: 5px;
+    
+}

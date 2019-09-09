@@ -1,0 +1,11 @@
+<fieldset>Add Movie Form</fieldset><br/>
+<form [formGroup]='registerForm'>
+    <div>
+    <p>MovieName:<input type="text" placeholder="Enter the name" formControlName="mname"></p>
+    <p>Language:&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter language" formControlName="lang"></p>
+    <p>Genre:&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter genre" formControlName="genre"></p>
+    <button (click)="save(registerForm.value)">Save</button>
+    <button (click)="cancel()">Cancel</button>
+    </div>
+    
+</form>
